@@ -1,0 +1,19 @@
+table{
+    .status {
+        padding: 5px;
+        border-radius: 5px;
+    
+        &.Completed {
+          color: rgb(1, 140, 1);
+          background-color: rgba(3, 148, 3, 0.151);
+        }
+        &.Pending {
+          color: goldenrod;
+          background-color: rgba(189, 189, 3, 0.103);
+        }
+        &.Incomplete {
+            color: rgb(247, 16, 16);
+            background-color: rgba(189, 189, 3, 0.103);
+          }
+      }
+}

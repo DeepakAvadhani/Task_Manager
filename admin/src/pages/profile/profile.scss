@@ -1,0 +1,59 @@
+// UserProfile.scss
+.user-profile {
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  width: 100;
+.profilecontainer{
+    flex:6;
+   
+    .profile-header {
+      margin: 20px; // Increased margin for better spacing
+      display: flex;
+      align-items: center;
+      background-color: #f5f5f5; // Added background color for the header
+      padding: 20px; // Added padding for better spacing and visual appeal
+      border-radius: 10px; // Rounded corners for the header
+    
+      .profile-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        margin-right: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        border: 2px solid #fff; // Added border to the image with white color
+      }
+    
+      .profile-details {
+        h2 {
+          margin-bottom: 10px;
+          color: #333; // Changed text color for better readability
+          font-size: 24px; // Increased font size for the name
+        }
+    
+        p {
+          margin-bottom: 5px;
+          color: #666; // Changed text color for better contrast
+          font-size: 16px; // Adjusted font size for other details
+        }
+        .profilePictureInput{
+          background-color: rgb(102, 102, 243);
+          color: white;
+          padding: 8px;
+          border: none;
+          border-radius: 10px;
+          cursor: pointer;
+          font-size: 14px;
+        }
+        .profilepicture :hover{
+          font-size: 20px;
+          background-color: white;
+          color: black;
+          border: white;
+        }
+      }
+    }
+    
+}
+  }
+  

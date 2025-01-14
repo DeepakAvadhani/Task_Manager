@@ -1,0 +1,35 @@
+.tableCell {
+  /* Other cell styles */
+
+  .markAsButton {
+    padding: 8px 16px;
+    background-color: #4caf50; /* Green background color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #45a049; /* Darker green on hover */
+    }
+  }
+
+  .status {
+    padding: 2px;
+    border-radius: 5px;
+
+    &.Completed {
+      color: rgb(1, 140, 1);
+      background-color: rgba(3, 148, 3, 0.151);
+    }
+    &.Pending {
+      color: goldenrod;
+      background-color: rgba(189, 189, 3, 0.103);
+    }
+    &.Incomplete {
+      color: rgb(247, 16, 16);
+      background-color: rgba(189, 189, 3, 0.103);
+    }
+  }
+}
